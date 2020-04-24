@@ -32,7 +32,7 @@ while True:
             cv2.putText(frame, str(i + 1), (x - 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.35, (0, 0, 255), 1)
 
     frame_im = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-    frame_im = Image.new('RGBA', frame_im.size, color='white') # TEMP: white out for cartoon
+    #frame_im = Image.new('RGBA', frame_im.size, color='white') # TEMP: white out for cartoon
 
     # Render for all faces
     for rect in rects:
@@ -40,7 +40,7 @@ while True:
         shape = face_utils.shape_to_np(shape)
 
         frame_im = rendering.render(frame_im, shape)
-
+        
     # Display frame
     frame = cv2.cvtColor(np.array(frame_im), cv2.COLOR_RGB2BGR)
     cv2.imshow("test", frame)
