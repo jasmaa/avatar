@@ -1,5 +1,29 @@
 {
     "ims": [
+
+        {
+            "src": "chest.png",
+            "p_0": {
+                "p": 30,
+                "offset_u": null,
+                "offset_v": {
+                    "start": 27,
+                    "end": 8,
+                    "factor": 1.1
+                }
+            },
+            "u": {
+                "start": 0,
+                "end": 16,
+                "factor": 1
+            },
+            "v": {
+                "start": 27,
+                "end": 8,
+                "factor": 0.5
+            }
+        },
+
         {
             "src": "head.png",
             "p_0": {
@@ -45,7 +69,7 @@
                 "offset_u": {
                     "start": 0,
                     "end": 16,
-                    "factor": 0.28
+                    "factor": 0.26
                 },
                 "offset_v": {
                     "start": 27,
@@ -61,7 +85,7 @@
             "v": {
                 "start": 44,
                 "end": 46,
-                "factor": 4
+                "factor": 3.5
             }
         },
         
@@ -72,7 +96,7 @@
                 "offset_u": {
                     "start": 0,
                     "end": 16,
-                    "factor": -0.28
+                    "factor": -0.26
                 },
                 "offset_v": {
                     "start": 27,
@@ -88,7 +112,30 @@
             "v": {
                 "start": 44,
                 "end": 46,
-                "factor": 4
+                "factor": 3.5
+            }
+        },
+
+        {
+            "src": "mouth_2.png",
+            "p_0": {
+                "p": 30,
+                "offset_u": null,
+                "offset_v": {
+                    "start": 27,
+                    "end": 8,
+                    "factor": 0.5
+                }
+            },
+            "u": {
+                "start": 48,
+                "end": 54,
+                "factor": 1
+            },
+            "v": {
+                "start": 62,
+                "end": 66,
+                "factor": 2
             }
         }
     ]

@@ -13,7 +13,7 @@ cam = cv2.VideoCapture(0)
 cv2.namedWindow("test", cv2.WINDOW_GUI_NORMAL)
 
 avatar = rendering.Avatar()
-avatar.load('data/shades')
+avatar.load('data/miho')
 
 while True:
     ret, frame = cam.read()
@@ -35,7 +35,7 @@ while True:
             cv2.putText(frame, str(i + 1), (x - 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.35, (0, 0, 255), 1)
 
     frame_im = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-    #frame_im = Image.new('RGBA', frame_im.size, color='white') # TEMP: white out for cartoon
+    frame_im = Image.new('RGBA', frame_im.size, color='white') # TEMP: white out for cartoon
 
     # Render for all faces
     for rect in rects:
