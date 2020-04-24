@@ -1,0 +1,26 @@
+{
+    "ims": [
+        {
+            "src": "shades.png",
+            "p_0": {
+                "p": 27,
+                "offset_u": null,
+                "offset_v": {
+                    "start": 27,
+                    "end": 30,
+                    "factor": -0.3
+                }
+            },
+            "u": {
+                "start": 36,
+                "end": 45,
+                "factor": 1.5
+            },
+            "v": {
+                "start": 27,
+                "end": 30,
+                "factor": 1.5
+            }
+        }
+    ]
+}

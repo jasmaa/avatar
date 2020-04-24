@@ -12,6 +12,9 @@ predictor = dlib.shape_predictor('data/shape_predictor_68_face_landmarks.dat')
 cam = cv2.VideoCapture(0)
 cv2.namedWindow("test", cv2.WINDOW_GUI_NORMAL)
 
+avatar = rendering.Avatar()
+avatar.load('data/shades')
+
 while True:
     ret, frame = cam.read()
 
@@ -39,7 +42,7 @@ while True:
         shape = predictor(gray, rect)
         shape = face_utils.shape_to_np(shape)
 
-        frame_im = rendering.render(frame_im, shape)
+        frame_im = avatar.render(frame_im, shape)
         
     # Display frame
     frame = cv2.cvtColor(np.array(frame_im), cv2.COLOR_RGB2BGR)

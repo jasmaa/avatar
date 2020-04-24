@@ -1,0 +1,95 @@
+{
+    "ims": [
+        {
+            "src": "head.png",
+            "p_0": {
+                "p": 30,
+                "offset_u": null,
+                "offset_v": null
+            },
+            "u": {
+                "start": 0,
+                "end": 16,
+                "factor": 0.7
+            },
+            "v": {
+                "start": 27,
+                "end": 8,
+                "factor": 0.8
+            }
+        },
+
+        {
+            "src": "hair.png",
+            "p_0": {
+                "p": 30,
+                "offset_u": null,
+                "offset_v": null
+            },
+            "u": {
+                "start": 0,
+                "end": 16,
+                "factor": 1.1
+            },
+            "v": {
+                "start": 27,
+                "end": 8,
+                "factor": 1.2
+            }
+        },
+
+        {
+            "src": "left_eye.png",
+            "p_0": {
+                "p": 30,
+                "offset_u": {
+                    "start": 0,
+                    "end": 16,
+                    "factor": 0.28
+                },
+                "offset_v": {
+                    "start": 27,
+                    "end": 8,
+                    "factor": 0.12
+                }
+            },
+            "u": {
+                "start": 42,
+                "end": 45,
+                "factor": 1
+            },
+            "v": {
+                "start": 44,
+                "end": 46,
+                "factor": 4
+            }
+        },
+        
+        {
+            "src": "right_eye.png",
+            "p_0": {
+                "p": 30,
+                "offset_u": {
+                    "start": 0,
+                    "end": 16,
+                    "factor": -0.28
+                },
+                "offset_v": {
+                    "start": 27,
+                    "end": 8,
+                    "factor": 0.12
+                }
+            },
+            "u": {
+                "start": 42,
+                "end": 45,
+                "factor": 1
+            },
+            "v": {
+                "start": 44,
+                "end": 46,
+                "factor": 4
+            }
+        }
+    ]
+}
