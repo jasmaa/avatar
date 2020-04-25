@@ -42,11 +42,11 @@ class Avatar:
             u_diff = data2vec(v['u'])
             v_diff = data2vec(v['v'])
 
-            # balance, I have no idea what this is called
-            u_balance = v['u']['balance'] if 'balance' in v['u'] else 0
-            v_balance = v['v']['balance'] if 'balance' in v['v'] else 0
-            u_diff = ((1-u_balance)*u_diff).astype(int) + (u_balance*np.array([np.linalg.norm(u_diff), 0])).astype(int)
-            v_diff = ((1-v_balance)*v_diff).astype(int) + (v_balance*np.array([0, np.linalg.norm(v_diff)])).astype(int)
+            # Inertia, I still have no idea what this is called
+            u_inertia = v['u']['inertia'] if 'inertia' in v['u'] else 0
+            v_inertia = v['v']['inertia'] if 'inertia' in v['v'] else 0
+            u_diff = ((1-u_inertia)*u_diff).astype(int) + (u_inertia*np.array([np.linalg.norm(u_diff), 0])).astype(int)
+            v_diff = ((1-v_inertia)*v_diff).astype(int) + (v_inertia*np.array([0, np.linalg.norm(v_diff)])).astype(int)
 
             p_0 = shape[v['p_0']['p']] + data2vec(v['p_0']['offset_u']) + data2vec(v['p_0']['offset_v'])
 
