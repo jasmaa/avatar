@@ -14,7 +14,7 @@ Inspired by [avatarify](https://github.com/alievk/avatarify)
   4. Install OBS VirtualCam plugin
   
 ## Running with Virtual Webcam
-  - `python app.py`
+  - `python app.py <avatar_path>`
   - Open OBS
     - Add a new `Window Capture` source linked to the output feed
     - Start VirtualCam under Tools -> VirtualCam

@@ -5,12 +5,16 @@ from PIL import Image
 import numpy as np
 
 class Avatar:
+    """Cartoon avatar
+    """
 
     def __init__(self):
         self.ims = []
         self.data = {}
 
     def load(self, path):
+        """Load config file and images
+        """
         with open(os.path.join(path, 'data.json'), 'r') as f:
             self.data = json.load(f)
         
@@ -19,6 +23,8 @@ class Avatar:
             self.ims.append(Image.open(os.path.join(path, v['src'])))
 
     def render(self, frame_im, shape):
+        """Render avatar
+        """
 
         def data2vec(data):
             if data:
