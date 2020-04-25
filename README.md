@@ -1,4 +1,6 @@
-# Avatar
+# Cartoon Avatar
+
+Cartoon avatar rendering for video conferences
 
 Inspired by [avatarify](https://github.com/alievk/avatarify)
 
