@@ -1,12 +1,12 @@
 # Cartoon Avatar
 
-<p align="center">
-  <img src="docs/demo.gif">
-</p>
-
 Cartoon avatar rendering for video conferences
 
 Inspired by [avatarify](https://github.com/alievk/avatarify)
+
+<p align="center">
+  <img src="docs/demo.gif">
+</p>
 
 ## Installation
 
