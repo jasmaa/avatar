@@ -1,5 +1,7 @@
 # Cartoon Avatar
 
+![Miho avatar demo](docs/demo.gif)
+
 Cartoon avatar rendering for video conferences
 
 Inspired by [avatarify](https://github.com/alievk/avatarify)
