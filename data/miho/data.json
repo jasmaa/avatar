@@ -9,18 +9,20 @@
                 "offset_v": {
                     "start": 27,
                     "end": 8,
-                    "factor": 1.1
+                    "factor": 0.85
                 }
             },
             "u": {
                 "start": 0,
                 "end": 16,
-                "factor": 1
+                "factor": 0.8,
+                "balance": 0.5
             },
             "v": {
                 "start": 27,
                 "end": 8,
-                "factor": 0.5
+                "factor": 0.5,
+                "balance": 0.5
             }
         },
 
