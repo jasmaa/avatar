@@ -1,6 +1,8 @@
 # Cartoon Avatar
 
-![Miho avatar demo](docs/demo.gif)
+<p align="center">
+  <img src="docs/demo.gif">
+</p>
 
 Cartoon avatar rendering for video conferences
 
